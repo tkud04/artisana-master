@@ -88,7 +88,7 @@ namespace Artisana.Controllers
 					});
 			}
 
-            return Json(ret);
+            return Json( new {data = ret});
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

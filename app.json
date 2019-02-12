@@ -1,0 +1,12 @@
+{
+  "name": "Artisana",
+  "description": "Back-end for Artisana mobile app",
+  "repository": "https://github.com/tkud04/artisana-master",
+  "keywords": ["aspnet", "core"],
+  "stack": "heroku-16",
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnetcore-buildpack"
+    }
+  ]
+}
